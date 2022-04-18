@@ -12,7 +12,6 @@ function updateCoffeeView(coffeeQty) {
 
 function clickCoffee(data) {
   // your code here
-
   data.coffee += 1
   updateCoffeeView(data.coffee)
   renderProducers(data)
@@ -87,11 +86,6 @@ function renderProducers(data) {
   getUnlockedProducers(data).forEach((element) => {
     producerContainer.appendChild(makeProducerDiv(element))
   })
-
-  // node.appendChild(newNode)
-  //document.createElement('block').appendChild(document.createElement('b') );
-
-  //makeProducerDiv is already written
 }
 
 /**************
@@ -122,7 +116,6 @@ function updateCPSView(cps) {
 function updatePrice(oldPrice) {
   // your code here
   return Math.floor(oldPrice * 1.25)
-  // return Math.round(oldPrice * 1.25)
 }
 
 function attemptToBuyProducer(data, producerId) {
@@ -161,9 +154,6 @@ function tick(data) {
   data.coffee += data.totalCPS
   updateCoffeeView(data.coffee)
   renderProducers(data)
-
-  // let coffeeCounter = document.getElementById('coffee_counter')
-  // coffeeCounter.innerText = data.coffee
 }
 
 /*************************
