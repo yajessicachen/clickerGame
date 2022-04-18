@@ -1,3 +1,5 @@
+Link: https://coffeeclickergame.netlify.app/
+
 # DOM Homework
 
 Firstly, don't stress out that we will be using this homework to judge you in any way except to understand how we can better help you.
